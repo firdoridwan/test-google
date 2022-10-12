@@ -1,0 +1,324 @@
+*,
+.body-display {
+    display: fixed;
+    background-color: #202124;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+/* Navbar Zone */
+.navbar-zone {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 6px;
+    margin: 4px;
+    font-family: arial, sans-serif;
+}
+
+.nav-link {
+    color: white;
+    padding: 5px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.img-navbar {
+    display: flex;
+}
+
+.gb_Ue {
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    color: #bdc1c6;
+    fill: currentColor;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 7px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.goxjub {
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    color: #bdc1c6;
+    fill: currentColor;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 7px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.profile-photo {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.babi:hover {
+    background-color: #515151;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.img-navbar:hover {
+    background-color: #515151;
+    cursor: pointer;
+    border-radius: 50px;
+}
+/* Navbar Zone End */
+
+/* Search Bar */
+.search-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-logo {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+
+.search-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 7px;
+    color: #9aa0a6;
+    fill: currentColor;
+    background-color: transparent;
+}
+
+.bar-search {
+    display: flex;
+    all: unset;
+    margin-left: 5px;
+    width: 100%;
+    border: none;
+    color: white;
+}
+
+.search-kolom:hover {
+    background-color: #515151;
+    box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.search-kolom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    border: 1px solid #5f6368;
+    z-index: 3;
+    height: 44px;
+    border-radius: 24px;
+    margin: 0;
+    width: 50%;
+    max-width: 584px;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: flex-start;
+}
+/* Search Bar End */
+
+/* Body Content */
+.content-container {
+    display: flex;
+    margin-top: 25px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.button-link {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    background-color: #303134;
+    border: none;
+    border-radius: 5%;
+    width: 130px;
+    height: 35px;
+    margin: 7px;
+}
+
+.button-link:hover {
+    border: 1px solid gray;
+    cursor: pointer;
+}
+/* Body Content End */
+
+/* Body Content 2 */
+.content-container2 {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+.text-content {
+    display: flex;
+    color: #bdc1c6;
+}
+
+.content-link2 {
+    display: flex;
+    color: #8ab4f8;
+    margin-right: 15px;
+    margin-left: 3px;
+}
+
+.content-link2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* Body Content 2 End */
+
+/* Footer */
+.footer-container {
+    display: flex;
+    background-color: #171717;
+    font-family: arial,sans-serif;
+    display: flex;
+    background-color: #171717;
+    font-family: arial,sans-serif;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #3c4043;
+    padding: 10px;
+    margin-top: 190px;
+}
+
+.indonesia-text {
+    background-color: transparent;
+    display: flex;
+    font-size: 15px;
+    color: #9aa0a6;
+    margin-left: 10px;
+}
+/* Footer End */
+
+/* Footer 2 */
+.footer2-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    font-family: arial,sans-serif;
+    background-color: #171717;
+    padding: 0 20px;
+    padding: 18px;
+}
+
+.footer-bottom1 {
+    display: flex;
+    font-size: 14px;
+    color: #9aa0a6;
+    background-color: transparent;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footer-bottom1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    display: flex;
+    font-size: 14px;
+    color: #9aa0a6;
+    background-color: transparent;
+    margin-right: 20px;
+}
+
+.footer-bottom:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-bottomS {
+    display: flex;
+    font-size: 14px;
+    color: #9aa0a6;
+    background-color: transparent;
+    margin-right: 700px;
+}
+
+.footer-bottomS:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-bottom2 {
+    display: flex;
+    font-size: 14px;
+    background-color: transparent;
+    color: #9aa0a6;
+    margin-right: 20px;
+}
+
+.footer-bottom2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* Footer 2 End */
